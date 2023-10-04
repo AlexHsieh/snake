@@ -1,0 +1,34 @@
+* {
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: darkgray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#snakeCanvas1 {
+  border: 2px solid lightgreen;
+  padding: 0%;
+}
+
+#score {
+  margin-top: 1rem;
+}
+
+#score,
+#highestScore {
+  color: darkblue;
+  font-size: 1.5rem;
+  padding: 10px;
+}
+
+#start {
+  padding: 0.25rem 0.5rem;
+  font-size: 1.5rem;
+  margin-top: 2%;
+  background-color: yellowgreen;
+}
